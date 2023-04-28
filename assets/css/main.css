@@ -13,7 +13,7 @@
 html {
   background: #fff;
   color: #222;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Mulish', sans-serif;
   font-size: 1em;
   line-height: 1.4;
 }
@@ -106,7 +106,7 @@ main {
 
 /* Headings */
 h1, h2 {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Mulish', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   text-shadow: 1px 1px 0 #fff;
@@ -200,22 +200,18 @@ td.team-name {
 
 .team-logo--table {
   margin-right: 1rem;
-  vertical-align: middle;
-
-  max-height: 1.5rem;
+  height: auto;
   width: 1.5rem;
+  vertical-align: middle;
 }
 
 p small {
-  color: rgba(0,0,0,.35);
+  color: rgb(30,30,30);
 }
 
 footer {
   border-top: 1px solid #d1d1d1;
-  margin-top: 2rem;
-  padding-top: 2rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 2rem auto 0;
   max-width: 1000px;
   padding: 0 1rem;
 }
@@ -223,35 +219,24 @@ footer {
 footer ul {
   padding: 0;
 }
+
 footer li {
   list-style: none;
 }
 
 @media screen and (min-width: 500px) {
+
   .team-links {
     float: left;
     max-width: 45%;
   }
+
   .supporter-links {
     float: right;
     max-width: 45%;
     text-align: right;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes

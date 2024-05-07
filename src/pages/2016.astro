@@ -1,0 +1,93 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = "2016 Dirty River Derby";
+const pageDescription = "The Dirty River Derby is the rivalry between FC Cincinnati and Louisville City FC, with a history spanning back to 2016. In 2016, Louisville City won the balance of the combined meetings of the two clubs, spread over US Open Cup and the USL season.";
+
+---
+
+<Layout title={title} pageDescription={pageDescription}>
+  <main>
+    <section>
+      <h1>2016 Dirty River Derby</h1>
+
+      <h2>Cincinnati Win</h2>
+      <img src="/assets/img/logos/fc_cincinnati.svg" alt="FC Cincinnati" class="team-logo">
+
+
+      <h3>2016 Schedule</h3>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Team</th>
+            <th>W</th>
+            <th>L</th>
+            <th>T</th>
+            <th>GD</th>
+            <th>Points</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="team-name"><img src="/assets/img/logos/fc_cincinnati.svg" alt="" class="team-logo--table"> FC Cincinnati</td>
+            <td>2</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td class="team-name"><img src="/assets/img/logos/louisville_city.svg" alt="" class="team-logo--table"> Louisville City FC</td>
+            <td>0</td>
+            <td>2</td>
+            <td>1</td>
+            <td>-</td>
+            <td>1</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <hr>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Location</th>
+            <th>Result</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>April 16</td>
+            <td>Cincinnati</td>
+            <td>2-3</td>
+          </tr>
+          <tr>
+            <td>June 25</td>
+            <td>Louisville</td>
+            <td>0-0</td>
+          </tr>
+          <tr>
+            <td>July 23</td>
+            <td>Cincinnati</td>
+            <td>2-0</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+      <p><small>The Dirty River Derby is the <strong>real</strong> name for all Cincinnati/Louisville rivalry games played in the league. Open Cup games do not count for/against the standings.</small></p>
+    </section>
+    <hr />
+    <section>
+      <h1>2016 Plastic Cup</h1>
+
+      <h2>Coopers Win</h2>
+      <img src="/assets/img/logos/coopers.png" alt="Louisville City FC" class="team-logo">
+
+      <p><small>The Plastic Cup is a Supporters tournament played by the Louisville Coopers and Cincinnati Pride before each installment of the DRD.</small></p>
+    </section>
+  </main>
+</Layout>

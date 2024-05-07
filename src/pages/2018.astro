@@ -1,0 +1,127 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = "2018 Dirty River Derby";
+const pageDescription = "The Dirty River Derby is the rivalry between FC Cincinnati and Louisville City FC, with a history spanning back to 2016. In 2018, Louisville City won the balance of the combined meetings of the two clubs, spread over US Open Cup and the USL season.";
+
+---
+
+<Layout title={title} pageDescription={pageDescription}>
+  <main>
+    <h1>2018 Dirty River Derby</h1>
+
+    <h2>Louisville Win</h2>
+    <img src="/assets/img/logos/lou_city_logo2018.png" alt="Louisville City FC" class="team-logo">
+
+    <section>
+      <!-- <h1>Current Standings</h1> -->
+
+      <table>
+        <thead>
+          <tr>
+            <th>Team</th>
+            <th>W</th>
+            <th>L</th>
+            <th>T</th>
+            <th>GD</th>
+            <th>Points</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="team-name"><img src="/assets/img/logos/louisville_city.svg" alt="" class="team-logo--table"> Louisville City FC</td>
+            <td>2</td>
+            <td>1</td>
+            <td>0</td>
+            <td>2</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td class="team-name"><img src="/assets/img/logos/fc_cincinnati.svg" alt="" class="team-logo--table"> FC Cincinnati</td>
+            <td>1</td>
+            <td>2</td>
+            <td>0</td>
+            <td>-2</td>
+            <td>3</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>2018 Schedule</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Location</th>
+            <th>Result</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>April 7</td>
+            <td>Cincinnati</td>
+            <td>0-1</td>
+          </tr>
+          <tr>
+            <td>May 26</td>
+            <td>Cincinnati</td>
+            <td>0-2</td>
+          </tr>
+          <tr>
+            <td>September 8/September 11 <a href="#rain-game"><sup>*</sup></a></td>
+            <td>Louisville</td>
+            <td>0-1</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p><small>The Dirty River Derby is the <strong>real</strong> name for all Cincinnati/Louisville rivalry games played in the league. Open Cup games do not count for/against the standings in 2018.</small></p>
+    </section>
+    <hr />
+    <section>
+      <h1>2018 Plastic Cup</h1>
+
+      <h2>Pride Wins</h2>
+      <img src="/assets/img/logos/pride.png" alt="The Pride logo" class="team-logo">
+
+      <p><strong>2018 Plastic Cup matches were played during the second and third meetings in the regular season schedule.</strong></p>
+      <p>As the Coopers were unable to field a full team for the first round, last season's <a href="https://twitter.com/ThePrideCincy/status/1000411399540150272" target="_blank">7-1 scoreline</a> was assumed for the first game, putting the Pride in the lead.</p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Supporters Group</th>
+            <th>W</th>
+            <th>L</th>
+            <th>T</th>
+            <th>GD</th>
+            <th>Points</th>
+          </tr>
+        </thead>
+        <tr>
+          <td class="team-name"><img src="/assets/img/logos/pride.png" alt="The Pride Logo" class="team-logo--table"> Pride</td>
+          <th>2</th>
+          <th>0</th>
+          <th>0</th>
+          <th>7</th>
+          <th>6</th>
+        </tr>
+        <tr>
+          <td class="team-name"><img src="/assets/img/logos/coopers.png" alt="Coopers Logo" class="team-logo--table"> Coopers</td>
+          <th>0</th>
+          <th>2</th>
+          <th>0</th>
+          <th>-7</th>
+          <th>0</th>
+        </tr>
+      </table>
+
+      <p><small>The Plastic Cup is a Supporters tournament played by the Louisville Coopers and Cincinnati Pride before each installment of the DRD.</small></p>
+    </section>
+
+    <section id="rain-game">
+      <h1 class="h4">Reschedule</h1>
+      <p>The final game of the 2018 DRD was split over two days, with the originally scheduled game being abandoned in the 38th minute due to rain. That game saw a 0-1 lead for Cincinati which was held over for the rescheduled date. Tuesday, September 11th was chosen and Cincinnati held on to the scoreline to win the match.</p>
+    </section>
+  </main>
+</Layout>
